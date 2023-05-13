@@ -1,9 +1,13 @@
 package com.barclays.updatepersonaldetails.model;
 
-public class PersonalDetails {
+import com.sun.istack.internal.NotNull;
 
+public class PersonalDetails {
+    @NotNull
     String name;
+
     String mobile_no;
+    @NotNull
     String dateOfBirth;
 
 }
