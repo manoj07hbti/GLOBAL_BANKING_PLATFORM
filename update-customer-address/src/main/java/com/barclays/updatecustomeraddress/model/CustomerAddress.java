@@ -1,10 +1,14 @@
 package com.barclays.updatecustomeraddress.model;
 
+import com.sun.istack.internal.NotNull;
+
 public class CustomerAddress {
 
+    @NotNull
     String type;
     String cityName;
     String stateName;
+    @NotNull
     int areaCode;
     String addressLine1;
     String addressLine2;
